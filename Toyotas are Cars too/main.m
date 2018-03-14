@@ -28,13 +28,17 @@ NSString * setNissanModel = @"Rogue";
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        // Class car intialized as nissan. model Rogue via setNissanModel
         Car *nissan = [[Car alloc]initWithModel:setNissanModel];
         
+        // NSLog model of Car nissan object
         NSLog(@"The Nissan model is");
         [nissan drive];
         
+        // Toyota subclass will initalize as prius no matter what literal is passed
         Toyota *taxi = [[Toyota alloc]initWithModel:@""];
         
+        // NSLog model of subclass Toyota taxi object
         NSLog(@"The Toyota model is");
         [taxi drive];
 

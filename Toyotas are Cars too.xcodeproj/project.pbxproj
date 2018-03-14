@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1730A0EE2058CACE00EBDDDD /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = 1730A0ED2058CACE00EBDDDD /* Toyota.m */; };
+		179D2F60205968F00065DCBA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BB92A920582AB000648AD7 /* Car.m */; };
+		179D2F61205968F70065DCBA /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = 1730A0ED2058CACE00EBDDDD /* Toyota.m */; };
 		17BB92A220582A7B00648AD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BB92A120582A7B00648AD7 /* main.m */; };
-		17C9C86B20582CEF00C85E54 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BB92A920582AB000648AD7 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -129,8 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1730A0EE2058CACE00EBDDDD /* Toyota.m in Sources */,
-				17C9C86B20582CEF00C85E54 /* Car.m in Sources */,
+				179D2F61205968F70065DCBA /* Toyota.m in Sources */,
+				179D2F60205968F00065DCBA /* Car.m in Sources */,
 				17BB92A220582A7B00648AD7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

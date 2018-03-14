@@ -12,7 +12,7 @@
 
 @property NSString *model;
 
--(id) drive;
+- (NSString*) drive;
 
 - (instancetype)initWithModel: model;
 

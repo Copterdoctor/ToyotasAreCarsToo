@@ -10,7 +10,7 @@
 
 @implementation Car
 
--(id)drive{
+- (NSString*)drive{
     NSLog(@"%@", [self model]);
     return 0;
 }
