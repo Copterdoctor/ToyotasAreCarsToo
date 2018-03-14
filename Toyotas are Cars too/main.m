@@ -31,12 +31,12 @@ int main(int argc, const char * argv[]) {
         Car *nissan = [[Car alloc]initWithModel:setNissanModel];
         
         NSLog(@"The Nissan model is");
-        nissan.drive;
+        [nissan drive];
         
         Toyota *taxi = [[Toyota alloc]initWithModel:@""];
         
         NSLog(@"The Toyota model is");
-        taxi.drive;
+        [taxi drive];
 
         
     }

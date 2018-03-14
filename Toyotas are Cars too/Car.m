@@ -11,7 +11,7 @@
 @implementation Car
 
 -(id)drive{
-    NSLog(@"%@", self.model);
+    NSLog(@"%@", [self model]);
     return 0;
 }
 
