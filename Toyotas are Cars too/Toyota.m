@@ -10,7 +10,7 @@
 
 @implementation Toyota : Car
 
-- (instancetype)initWithModel
+- (instancetype)initWithModel: model
 {
     self = [super init];
     if (self) {

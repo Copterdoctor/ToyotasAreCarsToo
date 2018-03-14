@@ -23,16 +23,20 @@
 #import "Car.h"
 #import "Toyota.h"
 
+NSString * setNissanModel = @"Rogue";
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        Car *nissan = [[Car alloc]initWithModel:@"Rogue"];
+        Car *nissan = [[Car alloc]initWithModel:setNissanModel];
         
-        NSLog(@"\nThe Nissan model is %@\n", nissan.drive);
+        NSLog(@"The Nissan model is");
+        nissan.drive;
         
-        Toyota *taxi = [[Toyota alloc]initWithModel];
+        Toyota *taxi = [[Toyota alloc]initWithModel:@""];
         
-        NSLog(@"\nThe Toyota model is %@\n", taxi.drive);
+        NSLog(@"The Toyota model is");
+        taxi.drive;
 
         
     }

@@ -12,8 +12,8 @@
 
 @property NSString *model;
 
--(NSString *) drive;
+-(id) drive;
 
-- (instancetype)initWithModel: someModel;
+- (instancetype)initWithModel: model;
 
 @end

@@ -10,15 +10,16 @@
 
 @implementation Car
 
--(NSString *)drive{
-    return self.model;
+-(id)drive{
+    NSLog(@"%@", self.model);
+    return 0;
 }
 
-- (instancetype)initWithModel: someModel
+- (instancetype)initWithModel: model
 {
     self = [super init];
     if (self) {
-        self.model = someModel;
+        _model = model;
     }
     return self;
 }
