@@ -15,7 +15,7 @@
     return 0;
 }
 
-- (instancetype)initWithModel: model
+- (instancetype)initWithModel: (NSString *) model
 {
     self = [super init];
     if (self) {

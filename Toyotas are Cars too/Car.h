@@ -14,6 +14,6 @@
 
 - (NSString*) drive;
 
-- (instancetype)initWithModel: model;
+- (instancetype)initWithModel: (NSString *) model;
 
 @end

@@ -10,6 +10,6 @@
 
 @interface Toyota : Car
 
-- (instancetype)initWithModel: model;
+- (instancetype)initWithModel: (NSString *) model;
 
 @end

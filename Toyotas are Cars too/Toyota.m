@@ -10,11 +10,10 @@
 
 @implementation Toyota : Car
 
-- (instancetype)initWithModel: model
+- (instancetype)initWithModel: (NSString *) model
 {
-    self = [super init];
+    self = [super initWithModel:@"Prius"];
     if (self) {
-        self.model = @"Prius";
     }
     return self;
 }
